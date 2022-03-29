@@ -3,10 +3,16 @@
 
 Nuclei Installation:
 
-https://github.com/projectdiscovery/nuclei-templates
+https://github.com/projectdiscovery/nuclei
 
 
-    GO Installation:
+  GO Installation:
+  
+      Install GO version 1.17.6 from:
+  
+      https://go.dev/doc/install
+      
+        
       !The first command may perform arbitrary system changes outside of the security sandbox that snaps        are usually confined to, which may put your system at risk.Thus, use the other two.
     
          $sudo snap install go         # version 1.17.6, or
@@ -20,3 +26,9 @@ https://github.com/projectdiscovery/nuclei-templates
        will results with:
        
           go version go1.10.3 gccgo (Ubuntu 8.4.0-1ubuntu1~18.04) 8.4.0 linux/amd64
+
+
+https://github.com/projectdiscovery/nuclei-templates
+
+
+  
