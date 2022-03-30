@@ -1,0 +1,44 @@
+Nuclei Installation:
+
+  Instead of manuel installation we will install it's docker:
+  
+    1. https://docs.docker.com/engine/install/ubuntu/
+    
+        $docker version
+              Client: Docker Engine - Community
+               Version:           20.10.13
+               API version:       1.41
+               Go version:        go1.16.15
+               Git commit:        a224086
+               Built:             Thu Mar 10 14:07:52 2022
+               OS/Arch:           linux/amd64
+               Context:           default
+               Experimental:      true
+              Got permission denied while trying to connect to the Docker daemon socket at unix:///var/
+              run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/version": dial unix /var/run
+              /docker.sock: connect: permission denied
+              
+    2. https://github.com/projectdiscovery/nuclei
+    
+         // "sudo su" avoids you to use sudo command again and again
+
+         $sudo docker pull projectdiscovery/nuclei
+              Using default tag: latest
+              latest: Pulling from projectdiscovery/nuclei
+              59bf1c3509f3: Pull complete 
+              2c881d80c5d6: Pull complete 
+              0a0c13f80c34: Pull complete 
+              Digest: sha256:3f853a46d22485fdd36994ac48f91065faa47bba227fc4358ecbadb1df1a8ecd
+              Status: Downloaded newer image for projectdiscovery/nuclei:latest
+              docker.io/projectdiscovery/nuclei:latest
+
+         $sudo docker run -ti -d  projectdiscovery/nuclei  // This is our base command template for the rest operations on nuclei
+              3336daf02e658f313b78e5fac5a10ee8a40e13cfa8915e13033f2273dc933cd0
+
+     
+          
+
+    
+    3. https://github.com/projectdiscovery/nuclei-templates
+  
+  
