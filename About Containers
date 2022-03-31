@@ -1,5 +1,7 @@
 
 ---------------------------------------------------------------------------------------------------------
+What's the difference between the docker commands: run, build, and create
+
 docker build: converts your Dockerfile into an image.
 docker create your-image: creates a container from your image, 
 docker run your-image: creates & starts the container based on your image.
@@ -28,3 +30,23 @@ Finally docker run image is a shortcut for docker create <image> and docker star
 (What's the difference between the docker commands: run, build, and create;
  https://stackoverflow.com/questions/37513511/whats-the-difference-between-the-docker-commands-run-build-and-create)
  ---------------------------------------------------------------------------------------------------------
+What is Docker Compose?
+
+An application can consist of multiple containers running different services.
+It can be tedious to start and manage containers manually, so Docker created 
+a useful tool that helps speed up the process - Docker Compose.
+
+Docker Compose is software used for defining and running multi-container Docker applications. 
+It can handle multiple containers simultaneously in the production, staging, development, 
+testing, and CI environment. Therefore, use Docker Compose to manage the whole software 
+development lifecycle (SDLC).
+
+Docker Compose works by applying rules defined in a docker-compose.yaml file.
+The YAML file configures the application's services and includes rules specifying
+how you want them to run. With the file in place, you can start, stop, or rebuild all 
+the services using a single command. Additionally, you can check the status of a service, 
+display log outputs, and run one-off commands.
+
+
+(What is Docker Compose?; https://phoenixnap.com/kb/docker-compose)
+---------------------------------------------------------------------------------------------------------
