@@ -50,3 +50,13 @@ display log outputs, and run one-off commands.
 
 (What is Docker Compose?; https://phoenixnap.com/kb/docker-compose)
 ---------------------------------------------------------------------------------------------------------
+What happens when a container stop?
+
+Starting and stopping containers is different from stopping and resuming ordinary processes.
+A process stop does not pause the process, it causes the process to exit. 
+A stopped container is not returned by docker ps. 
+To stop a container you use the docker stop command and pass the name of the container and 
+the number of seconds before a container is killed. 
+The default number of seconds the command will wait before the killing is 10 seconds.
+
+(Learn How To Stop, Kill And Clean Up Docker Containers; https://blog.eduonix.com/software-development/learn-stop-kill-clean-docker-containers/)
