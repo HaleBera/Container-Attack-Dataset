@@ -1,10 +1,10 @@
 Nuclei Installation:
 
-  Instead of manuel installation we will install it's docker:
+  Instead of manuel installation we will install it from it's docker. For this, we need to install Docker:
   
     1. https://docs.docker.com/engine/install/ubuntu/
     
-        $docker version
+        $docker version // You can check your docker version, your versios may be different, not problem
               Client: Docker Engine - Community
                Version:           20.10.13
                API version:       1.41
@@ -17,7 +17,9 @@ Nuclei Installation:
               Got permission denied while trying to connect to the Docker daemon socket at unix:///var/
               run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/version": dial unix /var/run
               /docker.sock: connect: permission denied
-              
+    
+  Now, we can complete Nuclei installation:
+    
     2. https://github.com/projectdiscovery/nuclei
     
          // "sudo su" avoids you to use sudo command again and again
@@ -32,7 +34,7 @@ Nuclei Installation:
               Status: Downloaded newer image for projectdiscovery/nuclei:latest
               docker.io/projectdiscovery/nuclei:latest
 
-         $sudo docker run -ti -d  projectdiscovery/nuclei  // This is our base command template for the rest operations on nuclei
+         $sudo docker run -ti -d  projectdiscovery/nuclei  // This will be our base command template for the rest operations on nuclei
               3336daf02e658f313b78e5fac5a10ee8a40e13cfa8915e13033f2273dc933cd0
 
      
