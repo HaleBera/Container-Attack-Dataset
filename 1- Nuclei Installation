@@ -34,9 +34,24 @@ Nuclei Installation:
               Status: Downloaded newer image for projectdiscovery/nuclei:latest
               docker.io/projectdiscovery/nuclei:latest
 
-         $sudo docker run -ti -d  projectdiscovery/nuclei  // This will be our base command template for the rest operations on nuclei
-              3336daf02e658f313b78e5fac5a10ee8a40e13cfa8915e13033f2273dc933cd0
+         $sudo docker run -ti  projectdiscovery/nuclei  // This will be our base command template for the rest operations on nuclei
+                                   __     _
+                 ____  __  _______/ /__  (_)
+                / __ \/ / / / ___/ / _ \/ /
+               / / / / /_/ / /__/ /  __/ /
+              /_/ /_/\__,_/\___/_/\___/_/   2.6.4
 
+                  projectdiscovery.io
+
+              [WRN] Use with caution. You are responsible for your actions.
+              [WRN] Developers assume no liability and are not responsible for any misuse or damage.
+              [INF] nuclei-templates are not installed, installing...
+              [INF] Successfully downloaded nuclei-templates (v8.9.3) to /root/nuclei-templates. GoodLuck!
+              [INF] Using Nuclei Engine 2.6.4 (outdated)
+              [INF] Using Nuclei Templates 8.9.3 (latest)
+              [INF] Templates added in last update: 8
+              [INF] Templates loaded for scan: 3100
+              [INF] No results found. Better luck next time!
      
           
 
