@@ -18,7 +18,7 @@ Nuclei Installation:
               run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/version": dial unix /var/run
               /docker.sock: connect: permission denied
     
-  We also need fo docker-compose, so insstall it too (https://docs.docker.com/compose/install/)
+  We also need to the docker-compose, so insstall it too (https://docs.docker.com/compose/install/)
   -------------------------------------------------------------------------------------------------------  
   
   Now, we can complete Nuclei installation:
