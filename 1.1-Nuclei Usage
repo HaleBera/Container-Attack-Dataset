@@ -3,6 +3,7 @@
     
     1. URL 1: https://github.com/projectdiscovery/nuclei-templates
        URL 2: https://nuclei.projectdiscovery.io/nuclei/get-started/
+       URL 3: https://nuclei.projectdiscovery.io/nuclei/get-started/#nuclei-config
     
-        $ sudo docker run -ti  projectdiscovery/nuclei update-templates
+        $ sudo docker run -ti  projectdiscovery/nuclei 
 
