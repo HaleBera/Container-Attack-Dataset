@@ -5,5 +5,9 @@
        URL 2: https://nuclei.projectdiscovery.io/nuclei/get-started/
        URL 3: https://nuclei.projectdiscovery.io/nuclei/get-started/#nuclei-config
     
-        $ sudo docker run -ti  projectdiscovery/nuclei 
+       Example (CVE-2021-44228: Solr/Log4j2: RCE): 
+    
+        Step 1: Build up the vulnerable image (https://github.com/vulhub/vulhub/tree/master/log4j/CVE-2021-44228)
+        
+        $ sudo docker run -ti  projectdiscovery/nuclei -u   -t cve/2021/CVE-2021-44228.yaml
 
