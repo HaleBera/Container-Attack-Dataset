@@ -18,6 +18,9 @@ Nuclei Installation:
               run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/version": dial unix /var/run
               /docker.sock: connect: permission denied
     
+  We also need fo docker-compose, so insstall it too (https://docs.docker.com/compose/install/)
+  -------------------------------------------------------------------------------------------------------  
+  
   Now, we can complete Nuclei installation:
     
     2. https://github.com/projectdiscovery/nuclei
@@ -53,7 +56,7 @@ Nuclei Installation:
               [INF] Templates loaded for scan: 3100
               [INF] No results found. Better luck next time!
      
-          
+  -------------------------------------------------------------------------------------------------------         
 
   Updating templates before using nuclei to get any new templates
   
