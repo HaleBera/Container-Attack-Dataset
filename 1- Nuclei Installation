@@ -58,6 +58,8 @@ Nuclei Installation:
   Updating templates before using nuclei to get any new templates
   
     3. https://github.com/projectdiscovery/nuclei-templates
+    
+        $sudo docker run -ti  projectdiscovery/nuclei update-templates
 
     
   
