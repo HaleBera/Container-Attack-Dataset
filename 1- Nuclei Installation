@@ -1,5 +1,16 @@
 Nuclei Installation:
 
+  Install nuclei by using git clone:
+  
+    1. https://nuclei.projectdiscovery.io/nuclei/get-started/
+    
+      $git clone https://github.com/projectdiscovery/nuclei.git; \
+      $cd nuclei/v2/cmd/nuclei; \
+      $go build; \
+      $mv nuclei /usr/local/bin/; \
+      $nuclei -version;
+  ------------------------------------------------------------------------------------------------------- 
+  
   Instead of manuel installation we will install it from it's docker. For this, we need to install Docker:
   
     1. https://docs.docker.com/engine/install/ubuntu/
