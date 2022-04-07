@@ -10,7 +10,10 @@ Nuclei Installation:
       $mv nuclei /usr/local/bin/; \
       $nuclei -version;
   ------------------------------------------------------------------------------------------------------- 
-  
+
+  (!not recommended for now....)
+
+
   Instead of manuel installation we will install it from it's docker. For this, we need to install Docker:
   
     1. https://docs.docker.com/engine/install/ubuntu/
