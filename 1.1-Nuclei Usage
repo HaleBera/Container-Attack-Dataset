@@ -1,21 +1,20 @@
   
   Now it is time to learn how to run nuclei templates... 
     
-    1. URL 1: https://github.com/projectdiscovery/nuclei-templates
+    1. Step 1: Decide on a template that you want implement
+       URL 1: https://github.com/projectdiscovery/nuclei-templates
        URL 2: https://nuclei.projectdiscovery.io/nuclei/get-started/
        URL 3: https://nuclei.projectdiscovery.io/nuclei/get-started/#nuclei-config
+       
+    2. Step 2: Find a proper image having this vulnerability, and make this image run on your local or wherever you want...
     
-       Example (CVE-2021-44228: Solr/Log4j2: RCE): 
+       App will be seen at http://related-ip:related-port
     
-        Step 1: Build up the vulnerable image (https://github.com/vulhub/vulhub/tree/master/log4j/CVE-2021-44228)
-        
-            The admin portal of Apache Solr will be seen at http://your-ip:8983
-
-        Step 2: In another terminal start the scan for CVE-2021-44228 by using Nuclei
-        
-        $ sudo docker run -ti  projectdiscovery/nuclei -u https://192.168.137.192:8983 -t cves/2021/CVE-2021-44228.yaml  
-         
-        This command not works true,  It will be fixed .....
+    3. Step 3: Start an attack from nuclei to the target url that the vulnerable app is running on...
+    
+       nuclei -u https://related-ip:related-port -t cves/2021/CVE-2021-44228.yaml 
+    
+      
 
 
     
