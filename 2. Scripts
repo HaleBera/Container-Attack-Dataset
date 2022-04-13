@@ -1,0 +1,1 @@
+$ sudo nuclei -list http_urls.txt -w workflows/wordpress-workflow.yaml
