@@ -10,3 +10,4 @@ For monitoring we used TCPDump and WireShark.
   - "-i": Filter according to the interface to avoid other network packets. (NOTE: If both the attacker and the vulnerable image works in your local, use "lo" instead "wlp4s0" 
  
 
+ $  netstat -antp | grep 31589  // you can list the port usage
