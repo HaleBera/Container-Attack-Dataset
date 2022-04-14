@@ -1,0 +1,4 @@
+https://github.com/fofapro/vulfocus
+https://github.com/fofapro/vulfocus/blob/master/INSTALL.md
+
+$ sudo docker run -d -p 80:80 -v /var/run/docker.sock:/var/run/docker.sock  -e VUL_IP="123.58.236.76" -e EMAIL_HOST="smtp.jiooq.com" -e EMAIL_HOST_USER="cfh00179@jiooq.com" -e EMAIL_HOST_PASSWORD="cfh00179@jiooq.com" vulfocus/vulfocus
