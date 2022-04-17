@@ -5,6 +5,7 @@ For monitoring we used TCPDump and WireShark.
  $ ip route 
    default via 192.168.128.1 dev wlp4s0 proto dhcp metric 20600 
 
+
  $ tcpdump -i wlp4s0 -w CVE-2020-17518.pcap port 8081
  
   - "-i": Filter according to the interface to avoid other network packets. (NOTE: If both the attacker and the vulnerable image works in your local, use "lo" instead "wlp4s0" 
