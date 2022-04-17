@@ -1,0 +1,4 @@
+For each type of attack scenario, we will have a different urls.txt
+
+- Our default attack scenario will be i.e. nuclei.yamls per each CWE code)
+- Soon, there may be more complicated attack scenarios created i.e. a scenario that includes nuclie.yaml form differernt CWE codes)
