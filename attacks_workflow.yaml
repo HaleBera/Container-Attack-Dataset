@@ -1,0 +1,12 @@
+id: attack-workflow
+
+info:
+  name: Attack Workflow
+  author: hale
+  description: A workflow that runs OWASP related nuclei templates for the years 2019,2020,2021 on a given target urls in urls.txt.
+
+workflows:
+  - template: cves/2020/CVE-2020-17518.yaml
+  - template: cves/2021/CVE-2021-34429.yaml
+  - template: cves/2021/CVE-2021-44228.yaml
+  - template: vulnerabilities/apache/apache-solr-log4j-rce.yaml
