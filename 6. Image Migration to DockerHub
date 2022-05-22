@@ -3,4 +3,9 @@ destination: https://hub.docker.com/repository/docker/hbodocker01/container_atta
 
 Save Docker Images As File: https://www.youtube.com/watch?v=RVgB1Fck6UU
 
+sudo save -o /PATH/TO/DIRECTORY/XXXX.zip IMAGE_NAME:latest
+
+sudo chown hale:hale XXXX.zip 
+
+
 docker push hbodocker01/container_attack_dataset_based_on_owasp_2021_top_ten:tagname
