@@ -9,3 +9,11 @@ sudo chown hale:hale XXXX.zip
 
 
 docker push hbodocker01/container_attack_dataset_based_on_owasp_2021_top_ten:tagname
+
+https://stackoverflow.com/questions/49976188/copy-docker-image-between-repositories
+
+
+docker pull old-registry/app:some_tag
+docker tag old-registry/app:some_tag new-registry/app:some_tag
+docker push new-registry/app:some_tag
+
